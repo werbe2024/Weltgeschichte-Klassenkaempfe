@@ -1,1 +1,24 @@
 docs/specs/band1_kapitel1.yml
+chapter:
+  id: "1914-1918"
+  title: "Der 1. Weltkrieg als imperialistischer Raubkrieg"
+  sources:
+    - author: "Lenin"
+      year: 1916
+      title: "Der Imperialismus als höchstes Stadium des Kapitalismus"
+      ref: "MEW Bd. 22, S. 201–205"
+      url: "https://www.marxists.org/deutsch/archiv/lenin/werke/1916/imperial/index.htm"
+  bmad:
+    background: |
+      - Bündnissysteme: Triple Entente vs. Mittelmächte.
+      - Kolonialkonkurrenz: Berlin-Konferenz 1884.
+      - Wirtschaftliche Ursachen: Überproduktion (Lenin, MEW Bd. 22, S. 203).
+    method: |
+      Dialektik: These (Kapitalismus → Krieg) vs. Antithese (Bourgeoise Propaganda) → Synthese (Krieg als Imperialismus-Folge).
+    analysis: |
+      - Lenin: "Krieg zwischen Räuberbanden" (MEW Bd. 22, S. 204).
+      - SPD stimmt 1914 für Kriegskredite → Verrat am Proletariat.
+    discussion: |
+      ### Von der Konterrevolution 1956 zur imperialistischen Aggression 2022
+      1. Chruschtschows "Entstalinisierung" als Beginn der Konterrevolution...
+      *(Hier den vollständigen discussion-Block aus meiner letzten Nachricht einfügen!)*
