@@ -1,0 +1,23 @@
+/Weltgeschichte-Klassenkaempfe/
+├── docs/
+│   ├── Band1_1914-1945/
+│   ├── Band2_1945-1976/
+│   ├── Band3_1976-2026/
+│   └── ...
+├── src/
+│   ├── data/ (Quellen, CSV/JSON-Datenbanken)
+│   ├── scripts/ (Python/R für Datenanalyse)
+│   └── ...
+├── .github/
+│   ├── workflows/
+│   │   ├── ci-cd-pipeline.yml (Ralph Loop)
+│   │   └── ...
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.md
+│       ├── feature_request.md
+│       └── ...
+├── LICENSE (GPLv3)
+├── CODE_OF_CONDUCT.md
+├── README.md (mit HTML-Link zum Repository)
+├── feedback.yml (Community-Feedback)
+└── ...
