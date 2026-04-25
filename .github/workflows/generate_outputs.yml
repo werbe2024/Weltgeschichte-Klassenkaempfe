@@ -1,0 +1,16 @@
+name: Generate Outputs
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+      - name: Generate HTML
+        run: |
+          mkdir -p docs/output
+          pandoc docs/bands/1914-1918.md -o docs/output/1914-1918.html --toc
+      - name: Generate PDF
+        run: |
+          pandoc docs/bands/1914-1918.md -o docs/output/1914-1918.pdf --latex-engine=xelatex
