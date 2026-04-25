@@ -1,0 +1,4 @@
+| Format | Zweck | Tools/Umsetzung | Dein Aufwand |
+| --- | --- | --- | --- |
+| LaTeX/PDF | Hochwertige Druckvorlage | Automatisch via [Pandoc + LaTeX-Vorlage](https://github.com/Wandmalfarbe/pandoc-latex-template) | Minimal (ich liefere fertige PDFs) |
+| ODT | LibreOffice (für schnelle Bearbeitung) | Automatisch via Pandoc | 0 |
