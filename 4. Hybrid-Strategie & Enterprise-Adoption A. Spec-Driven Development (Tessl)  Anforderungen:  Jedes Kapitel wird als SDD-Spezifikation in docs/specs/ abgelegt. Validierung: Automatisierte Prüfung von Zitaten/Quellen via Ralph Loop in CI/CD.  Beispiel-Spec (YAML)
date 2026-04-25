@@ -1,0 +1,10 @@
+chapter:
+  id: "band1-kapitel1"
+  title: "Der 1. Weltkrieg als imperialistischer Krieg"
+  sources:
+    - { author: "Lenin", year: 1916, title: "Der Imperialismus", ref: "MEW Bd. 22" }
+  bmad:
+    background: "Historischer Kontext: Bündnissysteme, Kolonialismus..."
+    method: "Dialektische Analyse: Widerspruch zwischen Proletariat/Bourgeoisie"
+    analysis: "These:: [Lenin, 1916] vs. Antithese:: [Bourgeoisie-Propaganda]"
+    discussion: "Lehren für antiimperialistische Kämpfe heute"
