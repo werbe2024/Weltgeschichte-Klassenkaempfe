@@ -1,0 +1,5 @@
+| Format | Zweck | Tools/Umsetzung | Dein Aufwand |
+| --- | --- | --- | --- |
+| HTML | Interaktive Web-Version | Automatisch aus Markdown via [GitHub Pages](https://pages.github.com/) | 0 (ich richte es ein) |
+| ePub | E-Reader (z. B. Tolino) | Automatisch via [Pandoc](https://pandoc.org/) + GitHub Action | 0 (ich schreibe das Skript) |
+| Mobi | Kindle | Wie ePub, nur anderes Format | 0 |
