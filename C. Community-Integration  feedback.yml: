@@ -1,0 +1,5 @@
+issues:
+  - type: "Falsche Quelle"
+    template: "bitte Quelle + Seite angeben"
+  - type: "Revisionistische Verzerrung"
+    template: "Beleg für Abweichung von ML-Position?"
