@@ -1,7 +1,7 @@
 import requests
-from bs4 import BeautifulSoup
 import yaml
 import os
+import glob
 
 def check_links(file_path):
     with open(file_path, 'r') as f:
@@ -21,6 +21,12 @@ def check_links(file_path):
                 report.append(f"⚠️ TIMEOUT: {url}")
     return "\n".join(report)
 
-# Beispielaufruf für band1_kapitel1.yml
 if __name__ == "__main__":
-    print(check_links("docs/specs/band1_kapitel1.yml"))
+    # Prüfe ALLE YAML-Dateien im specs-Ordner
+    os.makedirs("docs/output", exist_ok=True)
+    for spec_file in glob.glob("docs/specs/*.yml"):
+        print(f"Prüfe {spec_file}...")
+        report = check_links(spec_file)
+        output_file = f"docs/output/sources_report_{os.path.basename(spec_file)}.md"
+        with open(output_file, "w") as f:
+            f.write(f"# Quellenprüfung: {spec_file}\n\n{report}")
